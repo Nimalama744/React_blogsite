@@ -84,8 +84,11 @@ const PostList = ({ onReadMore }) => {
   );
 
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <input 
+        
+        className="mt-10 pl-4 mb-4 w-3/5 fixed sm:w-2/5 md:w-2/5 border-2 p-2 rounded-xl text-gray-900
+        flex flex-col items-center z-0"
         type="text" 
         placeholder="Search by title or author" 
         onChange={(e) => setSearchTerm(e.target.value)}

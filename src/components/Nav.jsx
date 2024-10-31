@@ -49,7 +49,7 @@ const Nav = () => {
           )}
         </ul>
 
-        <div className='text-white lg:flex hidden'>
+        <div className='text-white flex '>
           <button onClick={handleCreatePost} className='bg-green-500 px-3 py-1 font-medium rounded-lg hover:bg-white hover:text-green-500 transition-all duration-200 ease-in'>
             Create
           </button>

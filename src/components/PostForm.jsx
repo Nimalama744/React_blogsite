@@ -159,7 +159,7 @@ const PostForm = () => {
     }
   };
   return (
-    <form onSubmit={handleSubmit} className="max-w-xl mx-auto my-4 bg-white rounded-xl shadow-md p-8">
+    <form onSubmit={handleSubmit} className="max-w-xl mx-auto my-16 bg-white rounded-xl shadow-md p-8">
       <h1 className="text-2xl font-bold mb-4">{id ? 'Edit Post' : 'Create Post'}</h1>
       <div className="mb-4">
         <label className="block text-gray-700 text-sm font-bold mb-2">Title</label>
